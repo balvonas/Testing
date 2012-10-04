@@ -1,8 +1,12 @@
+#include <cstdlib>
 #include <iostream>
+
 using namespace std;
-int main (int argc, char const *argv[])
+
+int main(int argc, char *argv[])
 {
-  cout << "Bujaka!";
-  cout << "Woohoo :)";
-  return 0;
+    cout << "Labas" << endl;
+    cout << "Hello" << endl;
+    system("PAUSE");
+    return EXIT_SUCCESS;
 }
